@@ -6,7 +6,7 @@ public:
 
         for(int right = 0;right<nums.size();right++){
             if(nums[right]!=0){
-                if(right != left)
+                // if(right != left)
                 swap(nums[left],nums[right]);
                 left++;
             }
